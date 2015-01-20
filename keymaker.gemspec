@@ -53,6 +53,7 @@ Gem::Specification.new do |s|
     lib/keymaker/railtie.rb
     lib/keymaker/request.rb
     lib/keymaker/requests/add_node_to_index_request.rb
+    lib/keymaker/requests/add_node_to_label_request.rb
     lib/keymaker/requests/batch_get_nodes_request.rb
     lib/keymaker/requests/batch_request.rb
     lib/keymaker/requests/create_node_request.rb

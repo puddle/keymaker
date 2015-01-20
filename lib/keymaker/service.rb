@@ -63,6 +63,10 @@ module Keymaker
       delete_relationship_request(relationship_id: relationship_id)
     end
 
+    def add_node_to_label(label_name, node_id)
+      add_node_to_label_request(label_name: label_name, node_id: node_id)
+    end
+
     def add_node_to_index(index_name, key, value, node_id)
       add_node_to_index_request(index_name: index_name, key: key, value: value, node_id: node_id)
     end
